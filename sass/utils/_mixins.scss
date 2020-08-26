@@ -1,0 +1,5 @@
+@mixin flexCenter($type: inline-flex, $type-j: center, $type-a: center) {
+	display: $type;
+	justify-content: $type-j;
+	align-items: $type-a;
+}

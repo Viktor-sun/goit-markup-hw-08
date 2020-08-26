@@ -1,0 +1,23 @@
+%logo {
+  font-family: $font-logo;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+
+  .logo__excerpt {
+    color: $accent-color;
+  }
+}
+
+.logo-header {
+  @extend %logo;
+  color: $logo-text-color;
+}
+
+.logo-footer {
+  @extend %logo;
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: $background-color;
+}
