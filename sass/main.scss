@@ -3,9 +3,16 @@
 @import "./utils/placeholders";
 @import "./base/general-settings";
 @import "./components/container";
+@import "./components/section";
 @import "./utils/visually-hidden";
 @import "./layout/logo";
 @import "./layout/header";
 @import "./components/menu";
 @import "./components/list-nav";
 @import "./components/address-nav";
+
+@import "./layout/footer";
+
+// portfolio
+@import "./components/portfolio-section/buttons";
+@import "./components/portfolio-section/list-projects";
