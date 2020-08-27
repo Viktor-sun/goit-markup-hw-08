@@ -40,6 +40,8 @@
     text-align: center;
     background-color: $background-color;
 
+    z-index: 99;
+
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -62,6 +64,12 @@
   @media screen and(min-width: 768px) {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
     margin-left: 88px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    margin-left: 93px;
   }
 }

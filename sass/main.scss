@@ -6,12 +6,18 @@
 @import "./components/section";
 @import "./utils/visually-hidden";
 @import "./layout/logo";
+
+// header
 @import "./layout/header";
 @import "./components/menu";
 @import "./components/list-nav";
 @import "./components/address-nav";
 
+// footer
 @import "./layout/footer";
+@import "./components/footer-address";
+@import "./components/footer-socials";
+@import "./components/footer-form";
 
 // portfolio
 @import "./components/portfolio-section/buttons";

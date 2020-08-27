@@ -1,16 +1,11 @@
 .address-nav {
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 1199px) {
     display: flex;
     flex-direction: column;
-  }
-
-  @media screen and(min-width: 768px) {
-    margin-left: 84px;
   }
 }
 
 .address-nav__link {
-  display: block;
   color: $primery-text-color;
 
   font-style: normal;
@@ -35,6 +30,12 @@
     font-size: 12px;
     line-height: 1.16px;
   }
+
+  @media screen and(min-width:1200px) {
+    @include flexCenter();
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 
 .address-nav__link + .address-nav__link {
@@ -42,6 +43,11 @@
 
   @media screen and(min-width: 768px) {
     margin-top: 10px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    margin-top: 0;
+    margin-left: 30px;
   }
 }
 
@@ -83,7 +89,7 @@
     height: 14px;
   }
 
-  @media screen and(min-width: 768px) {
+  @media screen and(min-width: 1200px) {
     width: 10px;
     height: 16px;
   }

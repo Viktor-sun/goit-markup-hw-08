@@ -26,6 +26,7 @@
           class="menu-button"
           type="button"
           aria-expanded="false"
+          aria-controls="menu-container"
           data-menu-button
         >
           <svg
@@ -37,7 +38,7 @@
             <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
           </svg>
         </button>
-        <div class="menu-container" data-menu>
+        <div class="menu-container" id="menu-container" data-menu>
           <ul class="list-nav">
             <li class="list-nav__item">
               <a href="./index.html" class="list-nav__link">Студия</a>
@@ -304,7 +305,7 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container flex-footer">
-        <div>
+        <div class="box-address-footer">
           <a href="./" class="logo-footer" lang="en">
             <span class="logo__excerpt">Web</span>
             Studio
