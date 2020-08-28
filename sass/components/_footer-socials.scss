@@ -1,45 +1,44 @@
 .box-socials {
-  width: 206px;
-  @media screen and(max-width: 767px) {
-    margin-bottom: 60px;
-  }
+	width: 206px;
+	@media screen and(max-width: 767px) {
+		margin-bottom: 60px;
+	}
 }
 
 .box-socials__caption {
-  display: inline-block;
-  margin-bottom: 20px;
+	display: inline-block;
+	margin-bottom: 20px;
 
-  color: $background-color;
+	color: $background-color;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
 }
 
 .socials-footer {
-  @include flexCenter(flex, space-between);
+	@include flexCenter(flex, space-between);
 }
 .socials-footer__link {
-  @include flexCenter();
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+	@include flexCenter();
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
 
-  background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.1);
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    background-color: $accent-color;
-    transform: scale(1.5);
-  }
+	&:hover,
+	&:focus {
+		background-color: $accent-color;
+		transform: scale(1.5);
+	}
 }
 
 .socials-footer__icon {
-  width: 20px;
-  height: 20px;
-  --color4: #ffffff;
+	width: 20px;
+	height: 20px;
+	--color4: #ffffff;
 }

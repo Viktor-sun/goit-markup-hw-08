@@ -73,7 +73,7 @@ body {
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 hr {
@@ -95,7 +95,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   font-size: 1em;
 }
 
@@ -684,7 +684,7 @@ img {
   background: #2f303a;
 }
 
-.flex-footer {
+.footer__flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -699,7 +699,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .flex-footer {
+  .footer__flex {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-orient: horizontal;
@@ -714,8 +714,19 @@ img {
   }
 }
 
-.box-address-footer {
-  margin-bottom: 60px;
+@media screen and (min-width: 1200px) {
+  .footer__flex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer__box-address {
+    margin-bottom: 60px;
+  }
 }
 
 .address-footer {
@@ -824,14 +835,13 @@ img {
   --color4: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .form-footer {
     margin: auto;
   }
 }
 
 .form-footer__input {
-  width: 358px;
   width: 100%;
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -844,6 +854,12 @@ img {
 @media screen and (max-width: 1199px) {
   .form-footer__input {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form-footer__input {
+    width: 358px;
   }
 }
 

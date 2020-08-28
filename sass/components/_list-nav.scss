@@ -1,83 +1,83 @@
 .list-nav {
-  margin-bottom: 60px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0px;
-    display: flex;
-  }
+	margin-bottom: 60px;
+	@media screen and (min-width: 768px) {
+		margin-bottom: 0px;
+		display: flex;
+	}
 }
 
 .list-nav__item:not(:last-child) {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0px;
-    margin-right: 50px;
-  }
+	@media screen and (min-width: 768px) {
+		margin-bottom: 0px;
+		margin-right: 50px;
+	}
 }
 
 .list-nav__link {
-  position: relative;
-  color: $titles-text-color;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.16px;
-  letter-spacing: 0.02em;
+	position: relative;
+	color: $titles-text-color;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.16px;
+	letter-spacing: 0.02em;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
+	transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-delay: 0;
 
-  &:hover,
-  &:focus {
-    color: $accent-color;
-  }
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
 
-  @media screen and (min-width: 768px) {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+	@media screen and (min-width: 768px) {
+		display: block;
+		padding-top: 32px;
+		padding-bottom: 32px;
 
-    font-size: 14px;
-    line-height: 1.14;
-  }
+		font-size: 14px;
+		line-height: 1.14;
+	}
 }
 
 .list-nav__link--current {
-  color: $accent-color;
+	color: $accent-color;
 
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    width: 100%;
-    height: 4px;
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -8px;
+		width: 100%;
+		height: 4px;
 
-    background-color: $accent-color;
+		background-color: $accent-color;
 
-    border-radius: 2px;
+		border-radius: 2px;
 
-    animation-name: animationName;
-    animation-duration: 3500ms;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+		animation-name: animationName;
+		animation-duration: 3500ms;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
 
-    @media screen and(min-width: 768px) {
-      bottom: -1px;
-    }
-  }
+		@media screen and(min-width: 768px) {
+			bottom: -1px;
+		}
+	}
 }
 
 @keyframes animationName {
-  0% {
-    transform: scalex(0);
-  }
-  50% {
-    transform: scalex(1.2);
-  }
-  100% {
-    transform: scalex(0);
-  }
+	0% {
+		transform: scalex(0);
+	}
+	50% {
+		transform: scalex(1.2);
+	}
+	100% {
+		transform: scalex(0);
+	}
 }

@@ -1,34 +1,37 @@
 .form-footer {
-  @media screen and(min-width: 768px) {
-    margin: auto;
-  }
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		margin: auto;
+	}
 }
 
 .form-footer__caption {
-  @extend .box-socials__caption;
+	@extend .box-socials__caption;
 }
 
 .form-footer__input {
-  width: 358px;
-  width: 100%;
-  padding: 15px 16px;
+	width: 100%;
+	padding: 15px 16px;
 
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  margin-right: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	margin-right: 12px;
 
-  background-color: transparent;
-  color: $background-color;
+	background-color: transparent;
+	color: $background-color;
 
-  @media screen and(max-width: 1199px) {
-    margin-bottom: 20px;
-  }
+	@media screen and(max-width: 1199px) {
+		margin-bottom: 20px;
+	}
+
+	@media screen and(min-width: 1200px) {
+		width: 358px;
+	}
 }
 
 .button__icon {
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
+	width: 24px;
+	height: 24px;
+	margin-left: 10px;
 
-  vertical-align: middle;
+	vertical-align: middle;
 }

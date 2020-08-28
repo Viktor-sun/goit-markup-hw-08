@@ -1,36 +1,36 @@
 body {
-  background-color: $background-color;
-  color: $primery-text-color;
+	background-color: $background-color;
+	color: $primery-text-color;
 
-  font-family: $font-general;
-  letter-spacing: 0.03em;
+	font-family: $font-general;
+	letter-spacing: 0.03em;
 }
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .title {
-  margin-top: 0;
-  margin-bottom: 50px;
+	margin-top: 0;
+	margin-bottom: 50px;
 
-  color: $titles-text-color;
+	color: $titles-text-color;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+	text-align: center;
 }
 
 // .site-nav,
@@ -48,21 +48,21 @@ img {
 // }
 
 .button {
-  min-width: 200px;
-  border: none;
-  padding: 10px 32px;
+	min-width: 200px;
+	border: none;
+	padding: 10px 32px;
 
-  color: $background-color;
-  background-color: $accent-color;
+	color: $background-color;
+	background-color: $accent-color;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.06em;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.9;
+	text-align: center;
+	letter-spacing: 0.06em;
 
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  cursor: pointer;
+	cursor: pointer;
 }
