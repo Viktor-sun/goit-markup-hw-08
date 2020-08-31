@@ -1,0 +1,32 @@
+.section-works {
+	margin-bottom: 94px;
+
+	@media screen and(max-width: 1199px) {
+		display: none;
+	}
+}
+
+.our-works__item {
+	position: relative;
+	width: calc((100% - 60px) / 3);
+}
+
+.our-works__title {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 27px;
+	padding-bottom: 27px;
+
+	color: $background-color;
+	background: rgba(47, 48, 58, 0.8);
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-align: center;
+	text-transform: uppercase;
+}

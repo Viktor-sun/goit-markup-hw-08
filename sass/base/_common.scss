@@ -23,7 +23,7 @@ img {
 
 .title {
 	margin-top: 0;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 
 	color: $titles-text-color;
 
@@ -31,15 +31,23 @@ img {
 	font-size: 36px;
 	line-height: 1.2;
 	text-align: center;
+
+	@media screen and(min-width: 1200px) {
+		margin-bottom: 50px;
+	}
 }
 
-// .site-nav,
-// .features,
-// .our-works,
-// .our-team {
-// 	display: flex;
-// 	align-items: center;
-// }
+.features,
+.our-works,
+.our-team {
+	@media screen and(min-width: 768px) and(max-width: 1199px) {
+		flex-wrap: wrap;
+	}
+
+	@media screen and(min-width: 768px) {
+		display: flex;
+	}
+}
 
 // .features__item:not(:last-child),
 // .our-works__item:not(:last-child),

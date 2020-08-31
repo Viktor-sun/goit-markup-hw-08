@@ -73,36 +73,44 @@
 					<h2 class="visually-hidden">Основные особенности</h2>
 					<ul class="features">
 						<li class="features__item">
-							<svg class="features__icon">
-								<use href="./images/sprite.svg#icon-antenna"></use>
-							</svg>
+							<div class="features__wrapper-icon">
+								<svg class="features__icon">
+									<use href="./images/sprite.svg#icon-antenna"></use>
+								</svg>
+							</div>
 							<h3 class="features__title">Внимание к деталям</h3>
 							<p class="features__text">
 								Идейные соображения, а также начало повседневной работы по формированию позиции.
 							</p>
 						</li>
 						<li class="features__item">
-							<svg class="features__icon">
-								<use href="./images/sprite.svg#icon-clock"></use>
-							</svg>
+							<div class="features__wrapper-icon">
+								<svg class="features__icon">
+									<use href="./images/sprite.svg#icon-clock"></use>
+								</svg>
+							</div>
 							<h3 class="features__title">Пунктуальность</h3>
 							<p class="features__text">
 								Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
 							</p>
 						</li>
 						<li class="features__item">
-							<svg class="features__icon">
-								<use href="./images/sprite.svg#icon-diagram"></use>
-							</svg>
+							<div class="features__wrapper-icon">
+								<svg class="features__icon">
+									<use href="./images/sprite.svg#icon-diagram"></use>
+								</svg>
+							</div>
 							<h3 class="features__title">Планирование</h3>
 							<p class="features__text">
 								Равным образом консультация с широким активом в значительной степени обуславливает.
 							</p>
 						</li>
 						<li class="features__item">
-							<svg class="features__icon">
-								<use href="./images/sprite.svg#icon-astronaut"></use>
-							</svg>
+							<div class="features__wrapper-icon">
+								<svg class="features__icon">
+									<use href="./images/sprite.svg#icon-astronaut"></use>
+								</svg>
+							</div>
 							<h3 class="features__title">Современные технологии</h3>
 							<p class="features__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 						</li>
@@ -141,7 +149,73 @@
 							<a href="">
 								<div class="flip">
 									<div class="flip__body">
-										<img class="flip__front" src="./images/person1.jpg" alt="Фото" width="270" />
+										<picture>
+											<source
+												srcset="
+													./images/tel/person1-450.webp  1x,
+													./images/tel/person1-900.webp  2x,
+													./images/tel/person1-1350.webp 3x
+												"
+												type="image/webp"
+												width="450px"
+												media="(max-width: 767px)"
+											/>
+
+											<source
+												srcset="
+													./images/tel/person1-450.jpg  1x,
+													./images/tel/person1-900.jpg  2x,
+													./images/tel/person1-1350.jpg 3x
+												"
+												width="450px"
+												media="(max-width: 767px)"
+											/>
+
+											<source
+												srcset="
+													./images/tab/person1-354.webp  1x,
+													./images/tab/person1-708.webp  2x,
+													./images/tab/person1-1062.webp 3x
+												"
+												type="image/webp"
+												width="354px"
+												media="(max-width: 1199px)"
+											/>
+
+											<source
+												srcset="
+													./images/tab/person1-354.jpg  1x,
+													./images/tab/person1-708.jpg  2x,
+													./images/tab/person1-1062.jpg 3x
+												"
+												width="354px"
+												media="(max-width: 1199px)"
+											/>
+
+											<source
+												srcset="
+													./images/desktop/person1-270.webp 1x,
+													./images/desktop/person1-540.webp 2x,
+													./images/desktop/person1-810.webp 3x
+												"
+												type="image/webp"
+												width="270px"
+												media="(min-width: 1200px)"
+											/>
+
+											<source
+												srcset="
+													./images/desktop/person1-270.jpg 1x,
+													./images/desktop/person1-540.jpg 2x,
+													./images/desktop/person1-810.jpg 3x
+												"
+												width="270px"
+												media="(min-width: 1200px)"
+											/>
+
+											<img class="flip__front" src="./images/tab/person1-354.jpg" alt="Фото" />
+										</picture>
+
 										<span class="flip__back">Веселый и находчивый!</span>
 									</div>
 								</div>
@@ -208,7 +282,72 @@
 							<a href="">
 								<div class="flip">
 									<div class="flip__body">
-										<img class="flip__front" src="./images/person2.jpg" alt="Фото" width="270" />
+										<picture>
+											<source
+												srcset="
+													./images/tel/person2-450.webp  1x,
+													./images/tel/person2-900.webp  2x,
+													./images/tel/person2-1350.webp 3x
+												"
+												type="image/webp"
+												width="450px"
+												media="(max-width: 767px)"
+											/>
+
+											<source
+												srcset="
+													./images/tel/person2-450.jpg  1x,
+													./images/tel/person2-900.jpg  2x,
+													./images/tel/person2-1350.jpg 3x
+												"
+												width="450px"
+												media="(max-width: 767px)"
+											/>
+
+											<source
+												srcset="
+													./images/tab/person2-354.webp  1x,
+													./images/tab/person2-708.webp  2x,
+													./images/tab/person2-1062.webp 3x
+												"
+												type="image/webp"
+												width="354px"
+												media="(max-width: 1199px)"
+											/>
+
+											<source
+												srcset="
+													./images/tab/person2-354.jpg  1x,
+													./images/tab/person2-708.jpg  2x,
+													./images/tab/person2-1062.jpg 3x
+												"
+												width="354px"
+												media="(max-width: 1199px)"
+											/>
+
+											<source
+												srcset="
+													./images/desktop/person2-270.webp 1x,
+													./images/desktop/person2-540.webp 2x,
+													./images/desktop/person2-810.webp 3x
+												"
+												type="image/webp"
+												width="270px"
+												media="(min-width: 1200px)"
+											/>
+
+											<source
+												srcset="
+													./images/desktop/person2-270.jpg 1x,
+													./images/desktop/person2-540.jpg 2x,
+													./images/desktop/person2-810.jpg 3x
+												"
+												width="270px"
+												media="(min-width: 1200px)"
+											/>
+
+											<img class="flip__front" src="./images/tab/person2-354.jpg" alt="Фото" />
+										</picture>
 										<span class="flip__back">Душа компании!</span>
 									</div>
 								</div>
@@ -275,7 +414,72 @@
 							<a href="">
 								<div class="flip">
 									<div class="flip__body">
-										<img class="flip__front" src="./images/person3.jpg" alt="Фото" width="270" />
+										<picture>
+											<source
+												srcset="
+													./images/tel/person3-450.webp  1x,
+													./images/tel/person3-900.webp  2x,
+													./images/tel/person3-1350.webp 3x
+												"
+												type="image/webp"
+												width="450px"
+												media="(max-width: 767px)"
+											/>
+
+											<source
+												srcset="
+													./images/tel/person3-450.jpg  1x,
+													./images/tel/person3-900.jpg  2x,
+													./images/tel/person3-1350.jpg 3x
+												"
+												width="450px"
+												media="(max-width: 767px)"
+											/>
+
+											<source
+												srcset="
+													./images/tab/person3-354.webp  1x,
+													./images/tab/person3-708.webp  2x,
+													./images/tab/person3-1062.webp 3x
+												"
+												type="image/webp"
+												width="354px"
+												media="(max-width: 1199px)"
+											/>
+
+											<source
+												srcset="
+													./images/tab/person3-354.jpg  1x,
+													./images/tab/person3-708.jpg  2x,
+													./images/tab/person3-1062.jpg 3x
+												"
+												width="354px"
+												media="(max-width: 1199px)"
+											/>
+
+											<source
+												srcset="
+													./images/desktop/person3-270.webp 1x,
+													./images/desktop/person3-540.webp 2x,
+													./images/desktop/person3-810.webp 3x
+												"
+												type="image/webp"
+												width="270px"
+												media="(min-width: 1200px)"
+											/>
+
+											<source
+												srcset="
+													./images/desktop/person3-270.jpg 1x,
+													./images/desktop/person3-540.jpg 2x,
+													./images/desktop/person3-810.jpg 3x
+												"
+												width="270px"
+												media="(min-width: 1200px)"
+											/>
+
+											<img class="flip__front" src="./images/tab/person3-354.jpg" alt="Фото" />
+										</picture>
 										<span class="flip__back">Всегда рад помочь!</span>
 									</div>
 								</div>
@@ -343,7 +547,72 @@
 							<a href="">
 								<div class="flip">
 									<div class="flip__body">
-										<img class="flip__front" src="./images/person4.jpg" alt="Фото" width="270" />
+										<picture>
+											<source
+												srcset="
+													./images/tel/person4-450.webp  1x,
+													./images/tel/person4-900.webp  2x,
+													./images/tel/person4-1350.webp 3x
+												"
+												type="image/webp"
+												width="450px"
+												media="(max-width: 767px)"
+											/>
+
+											<source
+												srcset="
+													./images/tel/person4-450.jpg  1x,
+													./images/tel/person4-900.jpg  2x,
+													./images/tel/person4-1350.jpg 3x
+												"
+												width="450px"
+												media="(max-width: 767px)"
+											/>
+
+											<source
+												srcset="
+													./images/tab/person4-354.webp  1x,
+													./images/tab/person4-708.webp  2x,
+													./images/tab/person4-1062.webp 3x
+												"
+												type="image/webp"
+												width="354px"
+												media="(max-width: 1199px)"
+											/>
+
+											<source
+												srcset="
+													./images/tab/person4-354.jpg  1x,
+													./images/tab/person4-708.jpg  2x,
+													./images/tab/person4-1062.jpg 3x
+												"
+												width="354px"
+												media="(max-width: 1199px)"
+											/>
+
+											<source
+												srcset="
+													./images/desktop/person4-270.webp 1x,
+													./images/desktop/person4-540.webp 2x,
+													./images/desktop/person4-810.webp 3x
+												"
+												type="image/webp"
+												width="270px"
+												media="(min-width: 1200px)"
+											/>
+
+											<source
+												srcset="
+													./images/desktop/person4-270.jpg 1x,
+													./images/desktop/person4-540.jpg 2x,
+													./images/desktop/person4-810.jpg 3x
+												"
+												width="270px"
+												media="(min-width: 1200px)"
+											/>
+
+											<img class="flip__front" src="./images/tab/person4-354.jpg" alt="Фото" />
+										</picture>
 										<span class="flip__back">Лучший друг и товарищ!</span>
 									</div>
 								</div>
