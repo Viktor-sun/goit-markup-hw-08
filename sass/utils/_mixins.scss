@@ -3,3 +3,9 @@
 	justify-content: $type-j;
 	align-items: $type-a;
 }
+
+@mixin flexCenterSocials($type: flex, $type-d: column, $type-a: center) {
+	display: $type;
+	flex-direction: $type-d;
+	align-items: $type-a;
+}
