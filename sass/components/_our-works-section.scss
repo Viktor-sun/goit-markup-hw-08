@@ -1,7 +1,7 @@
 .section-works {
 	margin-bottom: 94px;
 
-	@media screen and(max-width: 1199px) {
+	@include max_1199 {
 		display: none;
 	}
 }
@@ -9,6 +9,10 @@
 .our-works__item {
 	position: relative;
 	width: calc((100% - 60px) / 3);
+
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 
 .our-works__title {

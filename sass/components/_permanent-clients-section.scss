@@ -7,11 +7,19 @@
 }
 
 .permanent-clients__items {
-	// width: calc((100% - 4 * 15px) / 2);
+	width: calc((100% - 30px) / 2);
 	margin-right: 30px;
 
 	@media screen and (max-width: 1199px) {
 		margin-bottom: 30px;
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		width: calc((100% - 60px) / 3);
+	}
+
+	@media screen and (min-width: 1200px) {
+		width: calc((100% - 150px) / 6);
 	}
 }
 
@@ -43,7 +51,8 @@
 
 .permanent-clients__link {
 	@include flexCenter();
-	width: 210px;
+
+	width: 100%;
 	height: 90px;
 
 	border: 1px solid $icon-color;
@@ -58,13 +67,5 @@
 	&:focus {
 		border-color: $accent-color;
 		color: $accent-color;
-	}
-
-	@media screen and (min-width: 768px) {
-		width: 226px;
-	}
-
-	@media screen and (min-width: 1200px) {
-		width: 170px;
 	}
 }

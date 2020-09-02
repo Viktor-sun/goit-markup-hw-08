@@ -128,8 +128,8 @@
 	margin-bottom: 0;
 
 	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.7;
+	font-size: 12px;
+	line-height: 1.16;
 	letter-spacing: 0.03em;
 
 	color: $primery-text-color;
@@ -138,6 +138,11 @@
 		text-decoration: underline;
 
 		color: $accent-color;
+	}
+
+	@include min_1200 {
+		font-size: 14px;
+		line-height: 1.7;
 	}
 }
 

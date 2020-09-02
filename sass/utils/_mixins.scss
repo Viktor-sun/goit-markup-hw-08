@@ -4,8 +4,26 @@
 	align-items: $type-a;
 }
 
-@mixin flexCenterSocials($type: flex, $type-d: column, $type-a: center) {
-	display: $type;
-	flex-direction: $type-d;
-	align-items: $type-a;
+@mixin max_767 {
+	@media screen and (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin min_768 {
+	@media screen and (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin max_1199 {
+	@media screen and (max-width: 1199px) {
+		@content;
+	}
+}
+
+@mixin min_1200 {
+	@media screen and (min-width: 1200px) {
+		@content;
+	}
 }

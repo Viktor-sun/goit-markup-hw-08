@@ -40,7 +40,7 @@ img {
 .features,
 .our-works,
 .our-team {
-	@media screen and(min-width: 768px) and(max-width: 1199px) {
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
 		flex-wrap: wrap;
 	}
 
@@ -48,12 +48,6 @@ img {
 		display: flex;
 	}
 }
-
-// .features__item:not(:last-child),
-// .our-works__item:not(:last-child),
-// .our-team__item:not(:last-child) {
-// 	margin-right: 30px;
-// }
 
 .button {
 	min-width: 200px;

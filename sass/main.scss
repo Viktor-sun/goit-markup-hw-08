@@ -3,7 +3,6 @@
 
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./utils/placeholders";
 @import "./base/common";
 @import "./components/container";
 @import "./components/section";
@@ -29,6 +28,11 @@
 @import "./components/footer-address";
 @import "./components/footer-socials";
 @import "./components/footer-form";
+
+// modal
+@import "./components/modal";
+@import "./utils/placeholders";
+@import "./components/modal-forms";
 
 // portfolio
 @import "./components/portfolio/buttons";
