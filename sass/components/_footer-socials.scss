@@ -1,6 +1,6 @@
 .box-socials {
 	width: 206px;
-	@media screen and(max-width: 767px) {
+	@include max_767 {
 		margin-bottom: 60px;
 	}
 }

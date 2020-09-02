@@ -1,5 +1,5 @@
 .form-footer {
-	@media screen and (min-width: 768px) and (max-width: 1199px) {
+	@include min_768_a_max_1199 {
 		margin: auto;
 	}
 }
@@ -19,11 +19,11 @@
 	background-color: transparent;
 	color: $background-color;
 
-	@media screen and(max-width: 1199px) {
+	@include max_1199 {
 		margin-bottom: 20px;
 	}
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		width: 358px;
 	}
 }

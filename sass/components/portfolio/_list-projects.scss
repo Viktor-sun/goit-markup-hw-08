@@ -1,5 +1,5 @@
 .project-container {
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		display: flex;
 		flex-wrap: wrap;
 		margin: -15px;
@@ -17,18 +17,18 @@
 		box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 	}
 
-	@media screen and(max-width: 767px) {
+	@include max_767 {
 		&:last-child {
 			margin-bottom: 0;
 		}
 	}
 
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		width: calc((100% - 4 * 15px) / 2);
 		margin: 15px;
 	}
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		width: calc((100% - 6 * 15px) / 3);
 		margin: 15px;
 	}

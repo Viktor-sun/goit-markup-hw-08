@@ -10,14 +10,14 @@
 	align-items: center;
 	text-align: center;
 
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: normal;
 	}
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		justify-content: space-between;
 		text-align: start;
 	}

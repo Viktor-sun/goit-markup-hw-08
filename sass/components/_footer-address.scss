@@ -1,5 +1,5 @@
 .footer__box-address {
-	@media screen and(max-width: 1199px) {
+	@include max_1199 {
 		margin-bottom: 60px;
 	}
 }
@@ -19,7 +19,7 @@
 .address-footer__street {
 	margin-bottom: 8px;
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		margin-bottom: 9px;
 	}
 }
@@ -35,7 +35,7 @@
 .address-footer__link:not(:last-child) {
 	margin-bottom: 8px;
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		margin-bottom: 9px;
 	}
 }

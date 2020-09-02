@@ -4,6 +4,12 @@
 	align-items: $type-a;
 }
 
+@mixin min_480 {
+	@media screen and(min-width: 480px) {
+		@content;
+	}
+}
+
 @mixin max_767 {
 	@media screen and (max-width: 767px) {
 		@content;
@@ -24,6 +30,12 @@
 
 @mixin min_1200 {
 	@media screen and (min-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin min_768_a_max_1199 {
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
 		@content;
 	}
 }

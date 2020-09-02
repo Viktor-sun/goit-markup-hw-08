@@ -1,6 +1,6 @@
 .list-nav {
 	margin-bottom: 60px;
-	@media screen and (min-width: 768px) {
+	@include min_768 {
 		margin-bottom: 0px;
 		display: flex;
 	}
@@ -9,7 +9,7 @@
 .list-nav__item:not(:last-child) {
 	margin-bottom: 40px;
 
-	@media screen and (min-width: 768px) {
+	@include min_768 {
 		margin-bottom: 0px;
 		margin-right: 50px;
 	}
@@ -33,7 +33,7 @@
 		color: $accent-color;
 	}
 
-	@media screen and (min-width: 768px) {
+	@include min_768 {
 		display: block;
 		padding-top: 32px;
 		padding-bottom: 32px;
@@ -64,7 +64,7 @@
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 
-		@media screen and(min-width: 768px) {
+		@include min_768 {
 			bottom: -1px;
 		}
 	}

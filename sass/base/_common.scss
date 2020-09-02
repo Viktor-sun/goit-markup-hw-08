@@ -32,7 +32,7 @@ img {
 	line-height: 1.2;
 	text-align: center;
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		margin-bottom: 50px;
 	}
 }
@@ -40,11 +40,11 @@ img {
 .features,
 .our-works,
 .our-team {
-	@media screen and (min-width: 768px) and (max-width: 1199px) {
+	@include min_768_a_max_1199 {
 		flex-wrap: wrap;
 	}
 
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		display: flex;
 	}
 }

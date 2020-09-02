@@ -4,7 +4,7 @@
 	font-size: 24px;
 	line-height: 1.16;
 
-	@media screen and (min-width: 1200px) {
+	@include min_1200 {
 		font-size: 26px;
 		line-height: 1.19;
 	}

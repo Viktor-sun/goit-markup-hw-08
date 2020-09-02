@@ -1,5 +1,5 @@
 .address-nav {
-	@media screen and(max-width: 1199px) {
+	@include max_1199 {
 		display: flex;
 		flex-direction: column;
 	}
@@ -24,14 +24,14 @@
 		color: $accent-color;
 	}
 
-	@media screen and(min-width:768px) {
+	@include min_768 {
 		font-style: normal;
 		font-weight: 500;
 		font-size: 12px;
 		line-height: 1.16px;
 	}
 
-	@media screen and(min-width:1200px) {
+	@include min_1200 {
 		@include flexCenter();
 		font-size: 14px;
 		line-height: 1.14;
@@ -41,11 +41,11 @@
 .address-nav__link + .address-nav__link {
 	margin-top: 16px;
 
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		margin-top: 10px;
 	}
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		margin-top: 0;
 		margin-left: 30px;
 	}
@@ -56,11 +56,11 @@
 	margin-right: 10px;
 	--color1: currentColor;
 
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		margin-right: 8px;
 	}
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		margin-right: 10px;
 	}
 }
@@ -69,12 +69,12 @@
 	width: 16px;
 	height: 12px;
 
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		width: 14px;
 		height: 10px;
 	}
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		width: 16px;
 		height: 12px;
 	}
@@ -84,12 +84,12 @@
 	width: 10px;
 	height: 15px;
 
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		width: 10px;
 		height: 14px;
 	}
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		width: 10px;
 		height: 16px;
 	}

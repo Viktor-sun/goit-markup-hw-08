@@ -12,7 +12,7 @@
 		color: $accent-color;
 	}
 
-	@media screen and (min-width: 768px) {
+	@include min_768 {
 		display: none;
 	}
 }
@@ -30,7 +30,7 @@
 }
 
 .menu-container {
-	@media screen and(max-width: 767px) {
+	@include max_767 {
 		position: absolute;
 		top: 100%;
 		left: 0;
@@ -61,13 +61,13 @@
 		}
 	}
 
-	@media screen and(min-width: 768px) {
+	@include min_768 {
 		@include flexCenter(flex, space-between);
 		flex-grow: 1;
 		margin-left: 88px;
 	}
 
-	@media screen and(min-width: 1200px) {
+	@include min_1200 {
 		margin-left: 93px;
 	}
 }
