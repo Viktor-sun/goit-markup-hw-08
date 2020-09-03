@@ -7,7 +7,7 @@
 	margin-left: auto;
 	margin-right: auto;
 
-	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tel.jpg);
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tel.jpg);
 	background-position: center;
 	background-size: 480px 400px;
 	background-color: rgba(47, 48, 58, 0.8);
@@ -15,33 +15,33 @@
 	@media screen and (min-device-pixel-ratio: 2),
 		screen and (min-resolution: 192dpi),
 		screen and (min-resolution: 2dppx) {
-		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tel@2x.jpg);
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tel@2x.jpg);
 	}
 
 	@media screen and (min-device-pixel-ratio: 3),
 		screen and (min-resolution: 288dpi),
 		screen and (min-resolution: 3dppx) {
-		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tel@3x.jpg);
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tel@3x.jpg);
 	}
 
 	// tablet
 	@include min_768 {
 		max-width: 768px;
 
-		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tab.jpg);
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tab.jpg);
 		background-size: 768px 400px;
 		background-color: rgba(47, 48, 58, 0.8);
 
 		@media screen and (min-device-pixel-ratio: 2),
 			screen and (min-resolution: 192dpi),
 			screen and (min-resolution: 2dppx) {
-			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tab@2x.jpg);
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tab@2x.jpg);
 		}
 
 		@media screen and (min-device-pixel-ratio: 3),
 			screen and (min-resolution: 288dpi),
 			screen and (min-resolution: 3dppx) {
-			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tab@3x.jpg);
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-tab@3x.jpg);
 		}
 	}
 
@@ -50,20 +50,20 @@
 		max-width: 1600px;
 		height: 600px;
 
-		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header.jpg);
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
 		background-size: 1600px 600px;
 		background-color: rgba(47, 48, 58, 0.8);
 
 		@media screen and (min-device-pixel-ratio: 2),
 			screen and (min-resolution: 192dpi),
 			screen and (min-resolution: 2dppx) {
-			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header@2x.jpg);
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero@2x.jpg);
 		}
 
 		@media screen and (min-device-pixel-ratio: 3),
 			screen and (min-resolution: 288dpi),
 			screen and (min-resolution: 3dppx) {
-			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header@3x.jpg);
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero@3x.jpg);
 		}
 	}
 }
